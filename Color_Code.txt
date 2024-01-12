@@ -1,0 +1,6 @@
+Old Green: 748957
+Old yellow: bdb597
+White: e4e3dd
+gray: 4e5249
+row gray: c2c9bc
+New color: 888e91

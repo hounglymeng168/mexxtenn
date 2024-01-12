@@ -1,0 +1,54 @@
+/* Add this to your CSS file or style tag */
+
+/* Main container for product details */
+#productDetail {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Product image style */
+  #productDetail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Product name style */
+  #productDetail h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Price style */
+  #productDetail p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Additional details style */
+  #productDetail .product-details {
+    font-size: 16px;
+  }
+  
+  /* Button box style */
+  .btn-box {
+    text-align: center;
+  }
+  
+  .btn-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .btn-box a:hover {
+    background-color: #0056b3;
+  }
+  

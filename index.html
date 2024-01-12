@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <!-- Include jQuery -->
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<!-- Site Metas -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="your,comma,separated,keywords" />
+<meta name="description" content="Brief description of your website" />
+<meta name="author" content="Mexxtenn" />
+<link rel="shortcut icon" href="images/Mexxtenn_industy.png" type="image/png">
+
+<!-- Icon Font Stylesheet -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XXX" crossorigin="anonymous" />
+
+  <title>
+    Mexxtenn
+  </title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            Mexxtenn
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  ">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">
+                Shop
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="user_option">
+            
+            <a href="https://t.me/+hNyerB479jNiNWQ1">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            
+            <form id="myForm" class="form-inline" onsubmit="handleSearch(); return false;">
+              <input type="text" id="searchInput" name="query" class="form-control" placeholder="Search...">
+              <ul id="searchResults" class="autocomplete-results"></ul>
+              <button class="btn nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header section -->
+  </div>
+    <!-- slider section -->
+
+    <section class="slider_section">
+      <div class="slider_container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Mexxtenn <br>
+                        Motivation
+                      </h1>
+                      <p>
+                        Mexxtenn is a website that sells its own products and
+                        imports other items that are in high demand in the
+                        market. It helps customers find the origin and quality of
+                        the products they want to buy.
+                      </p>
+                      <a href="contact.html">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-5 ">
+                    <div class="img-box">
+                      <img src="images/banner_pic1.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Mexxtenn <br>
+                        Background us!
+                      </h1>
+                      <p>
+                        My motivation is to show the potential of online vendors
+                        who sell without having their own websites, but rely on
+                        platforms like Facebook or Instagram. I want to
+                        demonstrate how they can boost their sales and reach
+                        more customers by creating their own digital wallets.
+                      </p>
+                      <a href="contact.html">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-5 ">
+                    <div class="img-box">
+                      <img src="images/banner_pic.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <h1>
+                        Welcome To <br>
+                        Mexxtenn Online Shop
+                      </h1>
+                      <p>
+                        My aim is to transform myself from a traditional vendor to a digital-style vendor with my own production and website. I want to track the sales and preferences of the new generation of customers who visit my online store.
+                      </p>
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-5 ">
+                    <div class="img-box">
+                      <img src="images/slider-img.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end slider section -->
+  </div>
+  <!-- end hero area -->
+
+  <!-- shop section -->
+
+  <section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Mexxtenn Products
+        </h2>
+      </div>
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="detail.html?product_id=1">
+            <div class="img-box">
+              <img src="images/p1.png" alt="Houng Lymeng Shirt">
+            </div>
+            <div class="detail-box">
+              <h6>
+                Vintage Tee
+              </h6>
+              <h6>
+                Price
+                <span>
+                  $18.99
+                </span>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="detail.html?product_id=2">
+            <div class="img-box">
+              <img src="images/p2.png" alt="Phnum T-Shirt">
+            </div>
+            <div class="detail-box">
+              <h6>
+                Phnum T-Shirt
+              </h6>
+              <h6>
+                Price
+                <span>
+                  $25
+                </span>
+              </h6>
+            </div>
+            <div class="new">
+              <span>
+                New
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="detail.html?product_id=3">
+              <div class="img-box">
+                <img src="images/p3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  KHMER BLOOD
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $15
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="detail.html?product_id=4">
+              <div class="img-box">
+                <img src="images/p4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Hip Hop T
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $25
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="detail.html?product_id=5">
+              <div class="img-box">
+                <img src="images/p5.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Ro T-Shirt
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $18.99
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="detail.html?product_id=6">
+              <div class="img-box">
+                <img src="images/p6.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  STAR-T
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    $9.50
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="detail.html?product_id=7">
+                <div class="img-box">
+                  <img src="images/p7.png" alt="A-Shirt">
+                </div>
+                <div class="detail-box">
+                  <h6>
+                      A-Shirt
+                  </h6>
+                  <h6>
+                      Price
+                      <span>
+                        $12
+                      </span>
+                  </h6>
+                </div>
+                <div class="new">
+                  <span>
+                      New
+                  </span>
+                </div>
+            </a>
+          </div>
+      </div>
+      
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="detail.html?product_id=8">
+              <div class="img-box">
+                <img src="images/p8.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                  Rock Star
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    35$
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="btn-box">
+        <a href="shop.html">
+          More Products
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- end shop section -->
+
+
+  <!-- Show member-->
+  <div class="responsive-container-block container">
+    <p class="text-blk team-head-text">
+      Our Team
+    </p>
+    <div class="responsive-container-block">
+
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper">
+            <img class="team-member-image"src="images/Agent-Hounglymeng.jpg" alt="">
+          </div>
+          <p class="text-blk name">
+            Houng Lymeng
+          </p>
+          <p class="text-blk position">
+            Admin
+          </p>
+          <p class="text-blk feature-text">
+            Houng Lymeng who the founder of Mexxtenn Co,LTd,
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/houng.lymeng.168/">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://t.me/Hounglymeng168">
+              <i class="fab fa-telegram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/houng-lymeng-4a5309288/">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper">
+            <img class="team-member-image"src="images/Agent-Hounglymeng.jpg" alt="">
+          </div>
+          <p class="text-blk name">
+            Houng Lymeng
+          </p>
+          <p class="text-blk position">
+            Admin
+          </p>
+          <p class="text-blk feature-text">
+            Houng Lymeng who the founder of Mexxtenn Co,LTd,
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/houng.lymeng.168/">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://t.me/Hounglymeng168">
+              <i class="fab fa-telegram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/houng-lymeng-4a5309288/">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+        <div class="card">
+          <div class="team-image-wrapper">
+            <img class="team-member-image"src="images/Agent-Hounglymeng.jpg" alt="">
+          </div>
+          <p class="text-blk name">
+            Houng Lymeng
+          </p>
+          <p class="text-blk position">
+            Admin
+          </p>
+          <p class="text-blk feature-text">
+            Houng Lymeng who the founder of Mexxtenn Co,LTd,
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/houng.lymeng.168/">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://t.me/Hounglymeng168">
+              <i class="fab fa-telegram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/houng-lymeng-4a5309288/">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+<!-- End Show member-->
+
+
+<p class="text-blk team-head-text">
+  ...
+</p>
+
+
+ <!-- info section -->
+<section class="info_section  layout_padding2-top">
+  <div class="info_container ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <h6>
+            ABOUT US
+          </h6>
+          <p>
+            Mexxtenn is a website that sells its own products and
+            imports other items that are in high demand in the
+            market. It helps customers find the origin and quality of
+            the products they want to buy.
+          </p>
+        </div>
+       
+        <div class="col-md-6 col-lg-3">
+          <h6>Objective</h6>
+          <p>
+              To create a digital platform that allows us to sell our own products online and
+              track the preferences of our customers, we need to consider the following details.
+          </p>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <h6>Aim</h6>
+        <p>
+          My aim is to transform myself from a traditional vendor to a digital-style
+          vendor with my own production and website. I want to track the sales and
+          preferences of the new generation of customers who visit my online store.
+        </p>
+    </div>
+      
+        <div class="col-md-6 col-lg-3">
+          <h6>
+            CONTACT US
+          </h6>
+          <div class="info_link-box">
+            <a href="https://maps.app.goo.gl/zHEQaTQH2FPSuixT7?g_st=ic">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span> 159 Street. 63, Phnom Penh </span>
+            </a>
+          <div class="social_box">
+              <a href="https://web.facebook.com/mexxtenn10">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <span>Facebook</span>
+              </a>
+              <a href="https://www.linkedin.com/in/houng-lymeng-4a5309288/">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://t.me/Hounglymeng168">
+                <i class="fa fa-telegram" aria-hidden="true"></i>
+                <span>Telegram</span>
+              </a>
+              <a href="https://t.me/Hounglymeng168">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>Telephone</span>
+              </a>
+          </div>    
+          <div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript section -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+
+  <script>
+    // Custom JavaScript code for product detail page
+    function showProductDetails(productId) {
+      // Fetch product details based on productId
+      // Update your product detail display logic here
+      alert('Showing product details for product_id: ' + productId);
+    }
+  </script>
+  <!-- End JavaScript section -->
+
+  <!-- footer section -->
+  <footer class=" footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://t.me/+hNyerB479jNiNWQ1">Mexxtenn Mini Online Shop.</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+</section>
+
+<!-- end info section -->
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+</script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
